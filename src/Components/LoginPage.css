@@ -1,0 +1,74 @@
+html{
+    height: 100%;
+}
+
+#root{
+    height: 100%;
+}
+.HeaderLogin{
+    align-items: flex-start;
+}
+
+
+body{
+    height: 100%;
+}
+
+.FormLayout{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50%;
+}
+
+
+
+
+.UserName{
+    display: flex;
+    column-gap: 30px;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+#UserName{
+    width: auto;
+    margin-left: 12px;
+}
+
+#Password{
+    width: auto;
+}
+
+.Password {
+    display: flex;
+    flex-direction: row;
+    column-gap: 39px;
+    
+}
+
+.ButtonLogin{
+    margin-top: 15px;
+    margin-left: 25%;
+    margin-bottom: 15px;
+    align-items:baseline;
+    width: 50%;
+    height: fit-content;
+    
+}
+
+
+.UserName{
+    display: flex;
+    flex-direction: row;
+    column-gap: normal;
+}
+
+Form > h1 {
+
+    margin: 0px 0px 25px 25px ;
+}
+/* TextField{
+    max-height: 20px;
+} */
